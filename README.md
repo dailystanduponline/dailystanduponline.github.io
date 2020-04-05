@@ -1,10 +1,10 @@
-# azunaiml.github.io
+# dailystanduponline.github.io
 
-This is simple one page website for online Daily Scrum Meetings. 
+This is simple one page website for online Daily Stand-Up Meetings. 
 
-## What is Daily Scrum Meeting?
+## What is Daily Stand-Up Meeting?
 
-The Daily Scrum is a 15-minute time-boxed event for the Development Team. The Daily Scrum is held every day of the Sprint. At it, the Development Team plans work for the next 24 hours. This optimizes team collaboration and performance by inspecting the work since the last Daily Scrum and forecasting upcoming Sprint work. The Daily Scrum is held at the same time and place each day to reduce complexity.
+In Scrum the Daily Stand-Up is a 15-minute time-boxed event for the Development Team. The Daily Stand-Up is held every day of the Sprint. At it, the Development Team plans work for the next 24 hours. This optimizes team collaboration and performance by inspecting the work since the last Daily Scrum and forecasting upcoming Sprint work. The Daily Stand-Up is held at the same time and place each day to reduce complexity.
 Every team member should answer 3 simple questions:
 - What did I do yesterday that helped the Development Team meet the Sprint Goal?
 - What will I do today to help the Development Team meet the Sprint Goal?
@@ -12,9 +12,9 @@ Every team member should answer 3 simple questions:
 
 More about scrum you could read here: [Scrum Guide](https://www.scrumguides.org/scrum-guide.html#events-daily)
 
-## Daily Scrum online
+## Daily Stanp-Up online
 
-Daily Scrum Online (site azunaiml.github.io) helps you to hold the meeting when your manage remote scrum team.
+Daily Stand-Up Online helps you to hold the meeting when your manage remote scrum team.
 
 ### Choose random speaker
 

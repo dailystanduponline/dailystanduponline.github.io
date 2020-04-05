@@ -12,7 +12,7 @@ Every team member should answer 3 simple questions:
 
 More about scrum you could read here: [Scrum Guide](https://www.scrumguides.org/scrum-guide.html#events-daily)
 
-## Daily Stanp-Up online
+## Daily Stand-Up online
 
 Daily Stand-Up Online helps you to hold the meeting when your manage remote scrum team.
 

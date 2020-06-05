@@ -102,35 +102,77 @@
         <!-- Shuffler -->
 
         <!-- Timer -->
-        <div class="col-sm-4">
-
-                <div class="card timer mt-1">
-                    <form class="text-center">
-                        <div class="control input-field">
-                            <input id="timer-input" type="number">
-                            <label for="timer-input" class="active">Minutes</label>
-                        </div>
-                        <a class="timer-btn start waves-effect"><i class="fas fa-play"></i></a>
-                        <a class="timer-btn pause waves-effect"><i class="fas fa-pause"></i></a>
-                        <a class="timer-btn reset waves-effect"><i class="fas fa-redo"></i></a>
-                        <div class="control checkbox">
-                            <input type="checkbox" id="timer-sounds">
-                            <label for="timer-sounds">Sound</label>
-                        </div>
-                    </form>
-                    <div class="clock waves-effect inactive">15:00</div>
+        <div class="col-sm-5">
+            <div class = "row">
+                <div class="col-sm">
+                    <div class="card timer mt-1">
+                        <form class="text-center">
+                            <div class="control input-field">
+                                <input id="timer-input" type="number">
+                                <label for="timer-input" class="active">Minutes</label>
+                            </div>
+                            <a class="timer-btn start waves-effect"><i class="fas fa-play"></i></a>
+                            <a class="timer-btn pause waves-effect"><i class="fas fa-pause"></i></a>
+                            <a class="timer-btn reset waves-effect"><i class="fas fa-redo"></i></a>
+                            <div class="control checkbox">
+                                <input type="checkbox" id="timer-sounds">
+                                <label for="timer-sounds">Sound</label>
+                            </div>
+                        </form>
+                        <div class="clock waves-effect inactive">15:00</div>
+                    </div>
                 </div>
+            </div>
 
                 <p></p>
                 <div class = "row">
-                    <div class="card hoverable">
-                        <div class="card-body">
-
-                            <h5 class="dark-grey-text my-4"><i class="fas fa-user-tie fa-3x text-primary"></i>Ведущий</h5>
-                            <p class="text-muted font-weight-light mb-0">SCRUM-master</p>
-
+                    <div class="col-sm">
+                        <div class = "row">
+                            <div class="col-sm">
+                                <div class="card hoverable">
+                                    <div class="card-body">
+                                        <h6 class="dark-grey-text my-4"><i class="fas fa-user-tie fa-2x text-primary"></i> Ведущий</h6>
+                                        <p class="text-muted font-weight-light mb-0">SCRUM-master</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card hoverable">
+                                    <div class="card-body">
+                                        <h6 class="dark-grey-text my-4"><i class="fas fa-clock fa-2x text-primary"></i> Длительность</h6>
+                                        <p class="text-muted font-weight-light mb-0">15 minutes</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card hoverable">
+                                    <div class="card-body">
+                                        <h6 class="dark-grey-text my-4"><i class="fas fa-download fa-2x text-primary"></i> Входные данные</h6>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item text-muted font-weight-light mb-0">Что сделал за вчера?</li>
+                                            <li class="list-group-item text-muted font-weight-light mb-0">Что буду делать сегодня?</li>
+                                            <li class="list-group-item text-muted font-weight-light mb-0">Есть ли какие-нибудь трудности?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card hoverable">
+                            <div class="card-body">
+                                <h6 class="dark-grey-text my-4"><i class="fas fa-bullseye fa-2x text-primary"></i> Цель</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted font-weight-light mb-0">Синхронизация участников команды</li>
+                                    <li class="list-group-item text-muted font-weight-light mb-0">Обеспечение прозрачности рабочего процесса</li>
+                                    <li class="list-group-item text-muted font-weight-light mb-0">Поддержание эфективности и производительности команды</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
         </div>
         <!-- Timer -->

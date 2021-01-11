@@ -33,13 +33,13 @@ function create_member(name, id, type, image=null) {
 
     switch (type) {
         case types.REGULAR:
-            chip.setAttribute('class', 'chip mt-3 mb-0 font-chips cyan darken-2 white-text');
+            chip.setAttribute('class', 'chip mt-3 mb-0 font-chips chip-lg cyan darken-2 white-text');
             break;
         case types.CENTER:
             chip.setAttribute('class', 'chip mt-3 mb-0 font-chip-center chip-lg cyan darken-2 white-text animated fadeIn');
             break;
         default:
-            chip.setAttribute('class', 'chip mt-3 mb-0 font-chips cyan darken-2 white-text');
+            chip.setAttribute('class', 'chip mt-3 mb-0 font-chips chip-lg cyan darken-2 white-text');
     }
 
     if (image === null) {

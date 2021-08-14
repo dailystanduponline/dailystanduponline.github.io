@@ -50,7 +50,7 @@
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <title>Daily Stand-Up Online - Dashboard</title>
 </head>
-<body onload="add_card('list')">
+<body onload="body_onload()">
 
 <!--Main Navigation-->
 <header>
@@ -254,9 +254,10 @@
                 </blockquote>
                 <hr>
                 <div class="md-form">
-                    <input type="text" id="members_add" class="form-control" onfocus="onEnter(this)" onblur="onExit(this)">
+                    <input type="text" id="members_add" class="form-control name_input" onfocus="onEnter(this)" onblur="onExit(this)">
                     <label for="members_add" class="">Team members (comma separated)</label>
                 </div>
+                <div class="md-form" id='custom_members'></div>
             </div>
             <div class="modal-footer justify-content-center">
                 <button type="button" class="btn bg-problem-card white-text" data-dismiss="modal" onclick="document.getElementById('members_add').value=''">Close</button>
@@ -278,6 +279,11 @@
 <script src="js/timer.js"></script>
 <script src="js/member.js"></script>
 <script>
+    function body_onload() {
+        add_card('list');
+        create_custom_members();
+    }
+
     function onEnter(element) {
         if ((element.value !==undefined && element.value.length >=0) ||$(this).attr('placeholder') !==null) {
             element.parentNode.querySelector("label").classList.add("active");

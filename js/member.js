@@ -129,7 +129,7 @@ function create_members() {
  */
 function create_custom_members() {
     var parent = document.querySelector('#custom_members');
-    let members = ["Гоша", "Даша", "Соня", "Полина", "Денис", "Арслан", "Диана", "Люба", "Рома", "Кирилл",  "Саша" , "Андрей", "Лена"];
+    let members = ["Гоша", "Даша", "Соня", "Полина", "Денис", "Арслан", "Диана", "Люба", "Тимофей", "Рома", "Кирилл",  "Саша" , "Андрей", "Лена", "Костя"];
     members.forEach(function (item, index) {
         let div = document.createElement('div');
         div.innerHTML = 

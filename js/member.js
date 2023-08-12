@@ -46,6 +46,9 @@ function create_member(name, id, type, image=null) {
         if(name.toLowerCase().includes('соня')){
             img.setAttribute('src', "img/icons/pig-icon_1.png");
         }
+        else if (name.toLowerCase().includes('гриша')) {
+            img.setAttribute('src', "img/icons/frog-icon_1.png");
+        }
         else {
             img.setAttribute('src', random_image());
         }
